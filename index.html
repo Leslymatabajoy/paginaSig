@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ENCUENTRO GEOMÁTICA UNIVALLE</title>
+</head>
+<body>
+    <header>
+        <h1>Encuentro de Geomáticos en la Universidad del Valle</h1>
+        <nav class="menu">
+            <ul>
+                <a href="#about">INFORMATE</a>
+                <a href="#contacted">CONFIRMA</a>
+                <a href="#ubication">UBICACIÓN</a>
+            </ul>
+        </nav>
+    </header>
+    <section id="init" class="home">
+        <h2>SEMANA DE GEOMÁTICA, UNIVERSIDAD DEL VALLE</h2>
+        <h1>Inscribete y sé parte de la semana de la Geomática en la Universidad del Valle este 20 de septiembre de 2023</h1>
+        <button onclick="location.href='/index.html#about'">SABER MAS...</button>
+    </section>
+    <section id="about" class="about-me">
+        <div class="info">
+            <h1>INFORMATE</h1>
+            <p>
+                La Semana Geomática es uno de los eventos más importantes del país sobre tecnologías geoespaciales y planificación territorial. En su nueva edición, se llevará a cabo del 14 al 17 de septiembre de 2023 en la Universidad del Valle, ubicado en la ciudad de Cali. Durante cuatro días, expertos nacionales e internacionales compartirán sus conocimientos y experiencias en información geográfica, percepción remota, sistemas de posicionamiento global, infraestructura de datos espaciales y nuevas tecnologías. El evento es gratuito, pero el cupo es limitado, por lo que se debe realizar una inscripción previa a través de la página web.
+            </p>
+            <h2>Algunas actividades que se realizarán</h2>
+            <li>Talleres especializados sobre el uso de herramientas y tecnologías geoespaciales.</li>
+            <li>Discusiones y paneles sobre temas relevantes en el campo de la información geográfica y las tecnologías geoespaciales.</li>
+            <li>... </li>
+        </div>
+        <div class="picture">
+            <div>
+                <img src="img/geomatica.png">
+            </div>
+            <div>
+                <h1>GEOMÁTICA</h1>
+                <h2>Gestión de información geográfica en Colombia</h2>
+            </div>
+        </div>
+    </section>
+    <section id="ubication" class="investigation">
+        <h1>UBICACIÓN</h1>
+        <div class="mapa">
+            <div>
+                <iframe width="750" height="400" src="https://www.openstreetmap.org/export/embed.html?bbox=-76.54614686965944%2C3.368328849044185%2C-76.51855230331422%2C3.382294981935922&amp;layer=mapnik&amp;marker=3.3752905923980623%2C-76.53234958648682" style="border: 1px solid black"></iframe><br/><br><small></small>
+                <a href="https://www.openstreetmap.org/?mlat=3.3753&amp;mlon=-76.5323#map=16/3.3753/-76.5323&amp;layers=N">Ver mapa en pantalla completa</a>
+            </div>
+            <div class="infoMapa">
+                <li>Dirección:Campus Meléndez Calle 13 # 100-00</li>
+                <br>
+                <li>Teléfono:307 2321200</li>
+                <br>
+                <li>facebook: geomatica_uv</li>
+                <br>
+                <li>instagram: gematica_uv</li>
+                <br>
+                <li>twiter: geomatica_uv</li>
+            </div>
+        </div>
+    </section>
+    <section id="contacted" class="contact">
+        <form>
+            <h1>CONFIRMAR ASISTENCIA REGISTRANDOTE</h1>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Correo">
+            <input type="text" placeholder="Dependencia">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit" value="ENVIAR">
+        </form>
+    </section>
+    <footer>
+        <h1>geomatica.uv@correounivalle.edu.co
+        <h1>Tel: 307 2321200</h1>
+        <button class="gotohome" onclick="location.href='http://127.0.0.1:5500/index.html#init'"></button>
+    </footer>
+</body>
+</html>
